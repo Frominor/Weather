@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import "./Main.scss";
-import { debounce } from "lodash-es";
+import { debounce } from "lodash";
 import { useDispatch, useSelector } from "react-redux";
 import { GetYuorCoord } from "../../State/AsyncActions/GetYourCoords";
 import { GetWeather } from "../../State/AsyncActions/GetWeather";
